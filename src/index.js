@@ -73,8 +73,3 @@ app.post("/repositories/:id/like", (request, response) => {
 });
 
 module.exports = app;
-
-
-// { "title": "DevsFood", "url": "http://devsfood.com", "techs": ["React", "React Native", "Node"] }    
-// { "title": "DevsAPI", "url": "http://devsapi.com", "techs": ["Go"] }
-
